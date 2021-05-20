@@ -1,0 +1,197 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #fff;
+  --color-studio: #000;
+  --our-team-bg-color: #f5f4fa;
+  --footer-contact-link: rgba(255, 255, 255, 0.6);
+  --primary-second-bg-color: #2f303a;
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Шапка */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.color-web {
+  color: var(--accent-color);
+}
+.color-studio {
+  color: var(--color-studio);
+}
+
+/* Навигация */
+
+.site-nav .site-link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .site-link:hover,
+.site-nav .site-link:focus {
+  color: var(--accent-color);
+}
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+/* Контакты */
+
+.contact .contact-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact .contact-link:hover,
+.contact .contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero-title {
+  color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Секции */
+
+.section-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Особенности */
+
+.section-subtitle {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.features-text {
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* Чем мы занимаемся */
+
+/* Наша команда  */
+
+.our-team-bg-color {
+  background: var(--our-team-bg-color);
+}
+.our-team {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.our-team-prof {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Подвал */
+
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.footer-link {
+  color: var(--footer-contact-link);
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+/* Кнопка */
+
+.button {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.primacy-second-bg-color {
+  background-color: var(--primary-second-bg-color);
+}
+
+/* Портфолио */
+
+/* Фильтры и Проекты */
+
+.filters-title {
+  display: none;
+}
+
+.portfolio-subtitle {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/* Кнопки */
+
+.portfolio-buttons {
+  color: var(--secondary-text-color);
+  background-color: var(--our-team-bg-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  cursor: pointer;
+}
+.portfolio-buttons:hover,
+.portfolio-buttons:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
