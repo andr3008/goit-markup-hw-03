@@ -20,7 +20,7 @@
     <!-- Шапка -->
 
     <header>
-      <div class="container">
+      <div class="container header-container">
         <a href="" class="logo">
           <span class="color-web">Web</span><span class="color-studio">Studio</span></a
         >
@@ -28,18 +28,22 @@
         <!-- Навигация -->
 
         <nav>
-          <ul class="site-nav">
-            <li><a href="./index.html" class="site-link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="site-link">Портфолио</a></li>
-            <li><a href="" class="site-link">Контакты</a></li>
+          <ul class="site-nav list item">
+            <li class="item"><a href="./index.html" class="site-link current">Студия</a></li>
+            <li class="item"><a href="./portfolio.html" class="site-link">Портфолио</a></li>
+            <li class="item"><a href="" class="site-link">Контакты</a></li>
           </ul>
         </nav>
 
         <!-- Контакты -->
 
-        <ul class="contact">
-          <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
+        <ul class="contact list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
@@ -47,114 +51,115 @@
     <!-- Герой -->
 
     <main>
-      <div>
-        <section class="hero primacy-second-bg-color">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="button" type="button">Заказать услугу</button>
-        </section>
-      </div>
+      <section class="hero primacy-second-bg-color">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="button" type="button">Заказать услугу</button>
+      </section>
 
       <!-- Особенности -->
 
-      <div class="container">
-        <section class="section no-padding">
+      <section class="section no-padding">
+        <div class="container">
           <h2 class="section-title">Особенности</h2>
-          <ul>
-            <li>
+          <ul class="great-section list">
+            <li class="item">
               <h3 class="section-subtitle">Внимание к деталям</h3>
               <p class="features-text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="section-subtitle">Пунктуальность</h3>
               <p class="features-text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="section-subtitle">Планирование</h3>
               <p class="features-text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="section-subtitle">Современные технологии</h3>
               <p class="features-text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!-- Чем мы занимаемся -->
 
-      <div class="container">
-        <section class="section no-padding">
+      <section class="section no-padding">
+        <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul>
-            <li>
+          <ul class="we-do-section list">
+            <li class="item">
               <img src="./images/box1.png" alt="Программирование" width="370" height="294" />
             </li>
-            <li>
+            <li class="item">
               <img src="./images/box2.png" alt="UI Дизайн" width="370" height="294" />
             </li>
-            <li>
+            <li class="item">
               <img src="./images/box3.png" alt="Продукт Дизайн" width="370" height="294" />
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!-- Наша команда -->
 
-      <div class="container">
-        <section class="section our-team-bg-color">
+      <section class="section our-team-bg-color">
+        <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul>
-            <li>
+          <ul class="our-team-section list">
+            <li class="item">
               <img src="./images/img3.jpg" alt="Фото Игоря" width="270" height="260" />
               <h3 class="our-team">Игорь Демьяненко</h3>
               <p lang="en" class="our-team-prof">Product Designer</p>
             </li>
-            <li>
+            <li class="item">
               <img src="./images/img2.jpg" alt="Фото Оли" width="270" height="260" />
               <h3 class="our-team">Ольга Репина</h3>
               <p lang="en" class="our-team-prof">Frontend Developer</p>
             </li>
 
-            <li>
+            <li class="item">
               <img src="./images/img1.jpg" alt="Фото Николая" width="270" height="260" />
               <h3 class="our-team">Николай Тарасов</h3>
               <p lang="en" class="our-team-prof">Marketing</p>
             </li>
-            <li>
+            <li class="item">
               <img src="./images/img.jpg" alt="Фото Михаила" width="270" height="260" />
               <h3 class="our-team">Михаил Ермаков</h3>
               <p lang="en" class="our-team-prof">UI Designer</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <!-- Подвал -->
 
-    <div class="container">
-      <footer class="primacy-second-bg-color footer-padding">
+    <footer class="primacy-second-bg-color footer-padding">
+      <div class="container">
         <a href="./index.html" class="logo">
-          <span class="color-web">Web</span><span class="second-color-studio">Studio</span></a
+          <span class="color-web footer-logo">Web</span
+          ><span class="second-color-studio footer-logo">Studio</span></a
         >
         <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
 
-        <ul class="footer">
+        <ul class="footer list">
           <li>
-            <a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="footer-link footer-margin"
+              >info@devstudio.com</a
+            >
           </li>
           <li><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
         </ul>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
