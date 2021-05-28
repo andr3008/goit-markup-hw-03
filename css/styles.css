@@ -42,6 +42,8 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+}
+.header-border {
   border-bottom: 1px solid var(--header-border-color);
 }
 
@@ -78,6 +80,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .site-link:hover,
@@ -103,6 +106,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contact .contact-link:hover,
 .contact .contact-link:focus {
@@ -115,6 +119,7 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  border-top: 1px solid var(--header-border-color);
 }
 
 .hero-title {
@@ -137,8 +142,7 @@ img {
   padding-bottom: 94px;
 }
 
-.section .no-padding {
-  padding-top: 0;
+.no-padding {
   padding-bottom: 0;
 }
 
@@ -163,6 +167,10 @@ img {
 }
 
 /* Особенности */
+
+.great {
+  display: none;
+}
 
 .great-section {
   display: flex;
@@ -192,20 +200,29 @@ img {
   background: var(--our-team-bg-color);
 }
 .our-team {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
 .our-team-prof {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   font-size: 16px;
   line-height: 1.19;
 }
 .our-team-section {
   display: flex;
+  justify-content: space-between;
 }
-.our-team-section .item + .item {
-  margin-left: 30px;
+
+.team-item {
+  background-color: var(--primary-bg-color);
+  text-align: center;
 }
 
 /* Подвал */
@@ -256,9 +273,9 @@ img {
   border: 0px solid transparent;
   min-width: 200px;
   padding: 10px 32px;
+  color: var(--secondary-text-color);
+  background-color: var(--our-team-bg-color);
 
-  color: var(--primary-bg-color);
-  background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -267,6 +284,11 @@ img {
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
+}
+.button:hover,
+.button:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
 }
 .primacy-second-bg-color {
   background-color: var(--primary-second-bg-color);
@@ -278,6 +300,7 @@ img {
 
 .filters-title {
   display: none;
+  border-top: 1px solid var(--header-border-color);
 }
 
 .filter-project {
