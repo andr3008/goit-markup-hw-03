@@ -2,6 +2,7 @@
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
+  --hero-button-hover-color: #188ce8;
   --primary-bg-color: #fff;
   --color-studio: #000;
   --our-team-bg-color: #f5f4fa;
@@ -273,8 +274,8 @@ img {
   border: 0px solid transparent;
   min-width: 200px;
   padding: 10px 32px;
-  color: var(--secondary-text-color);
-  background-color: var(--our-team-bg-color);
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
 
   font-family: inherit;
   font-weight: 700;
@@ -288,7 +289,7 @@ img {
 .button:hover,
 .button:focus {
   color: var(--primary-bg-color);
-  background-color: var(--accent-color);
+  background-color: var(--hero-button-hover-color);
 }
 .primacy-second-bg-color {
   background-color: var(--primary-second-bg-color);
